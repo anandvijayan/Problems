@@ -14,10 +14,10 @@ public class C implements Closeable
 		{
 			if (name != null)
 			{
-				if (name != null)
+				/*if (name != null)
 				{
 					name.close();
-				}
+				}*/
 				name = null;
 			}
 		};

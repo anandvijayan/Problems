@@ -31,7 +31,7 @@ public class B extends A
 		System.out.print("\n");
 	}
 
-	public final void close()
+	public void close()
 	{
 		System.out.print("B destructed");
 		System.out.print("\n");

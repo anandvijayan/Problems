@@ -3,7 +3,7 @@
 ## This program fails to compile
 1. Run maven build. Complete output <a href='outputs/Q1Errors.log'>here</a>
 <pre>
-mvn clean install exec:java -Dexec.maniClass=GlobalMembers
+mvn clean install exec:java -Dexec.mainClass=com.sabre.intvw.GlobalMembers
 ...
 ...
 [INFO] ------------------------------------------------------------------------
@@ -38,8 +38,28 @@ Process finished with exit code 1
 </pre>
 
 ## After compilation errors were fixed, the program ran successfully. Full output <a href='outputs/Q1Success.log'>here</a>
-1. [Jenkins 2.0](https://jenkins.io/2.0/)
-2. [Jenkins Pipeline ](https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md)
-3. [Ansible Documentation] (https://docs.ansible.com/ansible/index.html)
-4. [Ansible Playbook Examples](https://github.com/ansible/ansible-examples)
-5. [Kafka Quick Start] (http://kafka.apache.org/documentation.html#quickstart)
+<pre>
+mvn clean install exec:java -Dexec.mainClass=com.sabre.intvw.GlobalMembers
+...
+...
+
+
+Problem part A
+name is: Geremy
+name is: Geremy
+name is: Geremy
+Problem part B
+foo. B
+B destructed
+A destructed
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.835 s
+[INFO] Finished at: 2018-05-14T22:32:13-07:00
+[INFO] Final Memory: 18M/163M
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
+
+</pre>

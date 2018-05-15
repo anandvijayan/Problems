@@ -19,7 +19,7 @@ public class GlobalMembers
 
 
 
-	public static void Main(String[] args)
+	public static void main(String[] args)
 	{
 		System.out.print("\n");
 		System.out.print("\n");
@@ -30,7 +30,7 @@ public class GlobalMembers
 		// step 1
 //C++ TO JAVA CONVERTER TODO TASK: The following line was determined to contain a copy constructor call - this should be verified and a copy constructor should be created:
 //ORIGINAL LINE: b.takeCval(c);
-		b.takeCval(new C(c));
+		b.takeCval(new C());
 
 		// step 2
 		b.takeCptr(c);

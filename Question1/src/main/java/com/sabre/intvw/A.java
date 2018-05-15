@@ -14,13 +14,13 @@ import java.io.*;
 
 public class A implements Closeable
 {
-	public final void close()
+	public void close()
 	{
 		System.out.print("A destructed");
 		System.out.print("\n");
 	}
 
-	public final void foo()
+	public void foo()
 	{
 		System.out.print("foo. A");
 		System.out.print("\n");
