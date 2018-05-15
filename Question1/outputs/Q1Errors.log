@@ -1,0 +1,62 @@
+"C:\Program Files\Java\jdk1.8.0_144\bin\java" -Dmaven.multiModuleProjectDirectory=C:\Users\NISHANAND\Documents\Probs\ProbJava "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar=59842:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar" org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ProbJava 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ProbJava ---
+[INFO] Deleting C:\Users\NISHANAND\Documents\Probs\ProbJava\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ProbJava ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ProbJava ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Users\NISHANAND\Documents\Probs\ProbJava\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/B.java:[28,27] foo() in com.sabre.intvw.B cannot override foo() in com.sabre.intvw.A
+  overridden method is final
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/B.java:[34,27] close() in com.sabre.intvw.B cannot override close() in com.sabre.intvw.A
+  overridden method is final
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/C.java:[19,45] cannot find symbol
+  symbol:   method close()
+  location: variable name of type java.lang.String
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/GlobalMembers.java:[33,28] constructor C in class com.sabre.intvw.C cannot be applied to given types;
+  required: no arguments
+  found: com.sabre.intvw.C
+  reason: actual and formal argument lists differ in length
+[INFO] 4 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.597 s
+[INFO] Finished at: 2018-05-14T18:04:58-07:00
+[INFO] Final Memory: 13M/157M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project ProbJava: Compilation failure: Compilation failure:
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/B.java:[28,27] foo() in com.sabre.intvw.B cannot override foo() in com.sabre.intvw.A
+[ERROR] overridden method is final
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/B.java:[34,27] close() in com.sabre.intvw.B cannot override close() in com.sabre.intvw.A
+[ERROR] overridden method is final
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/C.java:[19,45] cannot find symbol
+[ERROR] symbol:   method close()
+[ERROR] location: variable name of type java.lang.String
+[ERROR] /C:/Users/NISHANAND/Documents/Probs/ProbJava/src/main/java/com/sabre/int/GlobalMembers.java:[33,28] constructor C in class com.sabre.intvw.C cannot be applied to given types;
+[ERROR] required: no arguments
+[ERROR] found: com.sabre.intvw.C
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+Process finished with exit code 1
