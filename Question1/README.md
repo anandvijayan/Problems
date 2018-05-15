@@ -1,4 +1,4 @@
-#Question 1
+# Question 1
 
 ## This program fails to compile
 1. Run maven build. Complete output <a href='outputs/Q1Errors.log'>here</a>
@@ -37,7 +37,8 @@ Process finished with exit code 1
 
 </pre>
 
-## After compilation errors were fixed, the program ran successfully. Full output <a href='outputs/Q1Success.log'>here</a>
+## After compilation errors were fixed, the program ran successfully.
+1. Run maven build. Full output <a href='outputs/Q1Success.log'>here</a>
 <pre>
 mvn clean install exec:java -Dexec.mainClass=com.sabre.intvw.GlobalMembers
 ...
