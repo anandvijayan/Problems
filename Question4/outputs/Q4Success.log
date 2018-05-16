@@ -1,0 +1,76 @@
+"C:\Program Files\Java\jdk1.8.0_144\bin\java" -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:57793,suspend=y,server=n -Dmaven.multiModuleProjectDirectory=C:\Users\NISHANAND\Documents\GitHub\Problems\Question4 "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar" org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 clean install
+Connected to the target VM, address: '127.0.0.1:57793', transport: 'socket'
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ShoppingCart 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ShoppingCart ---
+[INFO] Deleting C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ShoppingCart ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ShoppingCart ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ShoppingCart ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ShoppingCart ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ShoppingCart ---
+[INFO] Surefire report directory: C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sabre.intvw.test.ShoppingCartTest
+Checking out book started...
+Checking out book done...
+Scheduling the shipping of book:Read book: To Kill a Mocking Bird
+Checking out book started...
+Checking out book done...
+Scheduling the shipping of book:Read book: Go set a watchmen
+Schdeuled for Tue May 15 23:40:50 MST 2018
+Checking out book started...
+Checking out book done...
+Scheduling the shipping of book:Read book: The Firm
+Schdeuled for Wed May 16 23:41:10 MST 2018
+Checking out book started...
+Checking out book done...
+Scheduling the shipping of book:Read book: The Painted House
+Schdeuled for Wed May 23 23:41:10 MST 2018
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.097 sec
+Running com.sabre.intvw.test.StringHelpersTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ShoppingCart ---
+[INFO] Building jar: C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target\ShoppingCart-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ShoppingCart ---
+[INFO] Installing C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\target\ShoppingCart-1.0-SNAPSHOT.jar to C:\Users\NISHANAND\.m2\repository\com\sabre\intvw\ShoppingCart\1.0-SNAPSHOT\ShoppingCart-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\NISHANAND\Documents\GitHub\Problems\Question4\pom.xml to C:\Users\NISHANAND\.m2\repository\com\sabre\intvw\ShoppingCart\1.0-SNAPSHOT\ShoppingCart-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 43.482 s
+[INFO] Finished at: 2018-05-15T23:41:30-07:00
+[INFO] Final Memory: 18M/205M
+[INFO] ------------------------------------------------------------------------
+Disconnected from the target VM, address: '127.0.0.1:57793', transport: 'socket'
+
+Process finished with exit code 0
