@@ -1,6 +1,6 @@
 # Question 5
 
-## This program computes the area of a given shape be it Square, Rectangle or Square
+## This program computes the total area of the shapes on the mat be it Square, Rectangle or Circle
 1. Run maven build to compile and run junit tests. Complete output <a href='outputs/Q5Success.log'>here</a>
 <pre>
 mvn clean install
