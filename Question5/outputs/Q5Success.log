@@ -1,0 +1,65 @@
+"C:\Program Files\Java\jdk1.8.0_144\bin\java" -Dmaven.multiModuleProjectDirectory=C:\Users\NISHANAND\Documents\GitHub\Problems\Question5 "-Dmaven.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar=58168:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar" org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Area 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Area ---
+[INFO] Deleting C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Area ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Area ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Area ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Area ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Area ---
+[INFO] Surefire report directory: C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sabre.intvw.MatTest
+Found 5 circles, 0 squares and 0 rectangles
+Total area is:40898.5
+Found 0 circles, 0 squares and 5 rectangles
+Total area is:25875.0
+Found 0 circles, 5 squares and 0 rectangles
+Total area is:13025.0
+Found 5 circles, 5 squares and 5 rectangles
+Total area is:79798.5
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Area ---
+[INFO] Building jar: C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target\Area-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Area ---
+[INFO] Installing C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\target\Area-1.0-SNAPSHOT.jar to C:\Users\NISHANAND\.m2\repository\com\sabre\intvw\Area\1.0-SNAPSHOT\Area-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\NISHANAND\Documents\GitHub\Problems\Question5\pom.xml to C:\Users\NISHANAND\.m2\repository\com\sabre\intvw\Area\1.0-SNAPSHOT\Area-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.004 s
+[INFO] Finished at: 2018-05-16T00:16:58-07:00
+[INFO] Final Memory: 17M/156M
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
